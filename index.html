@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="./index.js"></script>
+  <link rel="stylesheet" href="./index.css">
+  <title>Bank Account Management System</title>
+</head>
+<body>
+  
+  <div id="inner-container">
+    <h1>Your Bank Account</h1>
+    <label for="acc_holder_name">Name: </label>
+    <input type="text" id="acc_holder_name">
+    <input type="radio" id="checking_acc" name="acc_type" value="Checking Account">
+    <label for="checking_acc">Checking Account</label><br>
+    <input type="radio" id="savings_acc" name="acc_type" value="Savings Account">
+    <label for="savings_acc">Savings Account</label><br>
+    <input type="radio" id="deposit_acc" name="acc_type" value="Money Market Deposit Account">
+    <label for="deposit_acc">Money Market Deposit Account</label><br><br>
+    <div id="button-container">
+      <button id="login">Login!</button>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h1>Bank Account Management</h1>
+    <input type="number" id="input" placeholder="Enter amount of money" disabled>
+    <select id="operator" disabled>
+        <option value="deposit">Deposit</option>
+        <option value="withdraw">Withdraw</option>
+        <option value="checkbalance">Check Balance</option>
+      </select>
+    <p id="output"></p>
+    <br>
+    <div id="button-container">
+      <button id="balance" disabled>Get Balance!</button>
+    </div>
+  </div>
+</body>
+</html>
