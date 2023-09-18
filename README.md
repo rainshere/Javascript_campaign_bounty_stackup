@@ -24,6 +24,23 @@ The required technologies used in this project are:
         - Input is not a integer value;
         - Input for operation Withdraw is greater than current balance.
     
-In the catch-block detects an error and returns it to the output paragraph and the finally-block runs everytime a transaction is performed even if this transaction fails and show the current balance of the bank account along with User data.
+        In the catch-block detects an error and returns it to the output paragraph and the finally-block runs everytime a transaction is performed even if this transaction fails and show the current balance of the bank account along with User data.
+      + Running different operations using switch-statements where is functionality of the bank account management system is a separate case where the BankAccount Class Methods run to change or show the bank account balance according to the selected operation.
+        - A simplified version of the switch-case logic used for this website:
+          ```
+           switch (operator) { 
+                    case 'deposit':
+                        account1.deposit(input);
+                        document.getElementById('output').innerHTML = account1.balance;
+                        break;
+                    case 'withdraw':
+                        account1.withdraw(input);
+                        document.getElementById('output').innerHTML = account1.balance;
+                        break;
+                    case 'checkbalance': 
+                        document.getElementById('output').innerHTML = account1.balance;
+                        break;
+                }
+          ```
         
         
