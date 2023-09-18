@@ -42,5 +42,8 @@ The required technologies used in this project are:
                         break;
                 }
           ```
-        
-        
+### User Manual
+1. Enter Account Holder's Name in the Name-textfield.
+2. Select Account Type from the 3 already displayed types.
+3. Press Login-Button. (Now you will be able to run transaction operations of your bank account balance, which is initialized with 1000 amount of moeny at the start).
+4. Select the prefered transactional operation and if required (for deposit and withdraw) write the amount of money in the text field.
