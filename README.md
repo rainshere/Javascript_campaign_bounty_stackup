@@ -18,4 +18,11 @@ The required technologies used in this project are:
       ```
   - **Vanilla JS**: used to build the functionality and logic behind the website (Back End Development)
       + BankAccount Class used to create a new bank account and using methods to deposit, withdraw and check bank account balance. Each new instance of the class needs an interger value for ```balance``` attribute, a string value for attribute ```acc_holder_name``` and a string value for attribute ```acc_type``` which is selected in the radio input in ```index.html```.
+      + Error Handling using try-catch-finally where in the try-block run all the different bank account operations on the amount of money in the bank account. To ensure that the operations are valid there are 4 types of error exceptions:
+        - Input is a negetive number;
+        - Input is empty;
+        - Input is not a integer value;
+        - Input for operation Withdraw is greater than current balance.
+      in the catch-block detects an error and returns it to the output paragraph, the finally-block runs everytime a transaction is performed even if this transaction fails and show the current balance of the bank account along with User data.
+        
         
