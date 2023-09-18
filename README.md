@@ -23,6 +23,7 @@ The required technologies used in this project are:
         - Input is empty;
         - Input is not a integer value;
         - Input for operation Withdraw is greater than current balance.
-in the catch-block detects an error and returns it to the output paragraph, the finally-block runs everytime a transaction is performed even if this transaction fails and show the current balance of the bank account along with User data.
+    
+In the catch-block detects an error and returns it to the output paragraph and the finally-block runs everytime a transaction is performed even if this transaction fails and show the current balance of the bank account along with User data.
         
         
