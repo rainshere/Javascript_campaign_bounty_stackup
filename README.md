@@ -13,6 +13,7 @@ The required technologies used in this project are:
       ```
         input[disabled], select[disabled], #balance[disabled] {
           opacity: 0.5;
-          cursor: not-allowed; }
+          cursor: not-allowed;
+        }
       ```
   - Vanilla JS:
